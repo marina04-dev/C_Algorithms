@@ -17,20 +17,19 @@ main()
 	int pinakas[SIZE];
 	int i,j,N=15;
 	
-	/* Arxikopoiisi enos pinaka 20 thesewn 
-	   me tyxaious arithmous sto 1..99 */
+	/* Initialization of an array with 20 places with random
+	numbers in range 1 and 99 */
 	
 	init_array(pinakas,N,1,50);
 	
-	/* Ektypwsi tou pinaka kai tou stoixeiou*/
-	printf("\t\t\tEPIDEIKSI INSERTION SORT\n\n");
-	printf("Arxi   : ");
+	/* Printing of the array*/
+	printf("Start   : ");
 	print_array(pinakas,N);
 
-	/* Taksinomisi Pinaka */
+	/* Sorting of the array */
 	insertion_sort(pinakas, N);
 
-	printf("\nTelos   : ");
+	printf("\nEnd   : ");
 	print_array(pinakas,N);	
 }
 
