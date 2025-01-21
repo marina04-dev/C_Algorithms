@@ -1,5 +1,7 @@
-/* Summary of Two Arrays in One Array (without functions)*/
+/* Summary of Two 2D Arrays in One Array (without functions)*/
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 #define ROWS 100
 #define COLS 100
