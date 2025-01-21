@@ -52,7 +52,7 @@ int main() {
     }
     
     
-    /* Calculation of the 2 arrays summary */
+    /* Calculation of the 2 arrays product */
     for (i=0; i<M; i++) {
         for (j=0; j<N; j++) {
             array3[i][j]=0;
